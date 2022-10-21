@@ -13,6 +13,7 @@
     />
 
     <link rel="stylesheet" href="src/style.css"/>
+
   </head>
   <body>
     <div class="container">
@@ -35,11 +36,13 @@
             </div>
           </div>
 
-
+<br>
+ <h1>Birmingham</h1>
         </form>
-        <div class="weatherInfo">
+        <div class="weatherInfo row">
           <div class="col-6">
-            <h1>Birmingham</h1>
+
+            <br>
             <ul>
               <li>
                 <span> Friday 11 : 53 </span>
@@ -55,70 +58,79 @@
           </div>
 
           <div class="col-6">
-            <div class="temperature-container d-flex justify-content-end">
-              <canvas width="52" height="52"></canvas>
+            <div class="temperature-container">
+              <img class= "weatherDay" src="images/clouds.png" alt="clouds" width="60"/>
 
-                <span class="temperature">14</span
-                ><span class="unit">°C|°F</span>
+                <strong><span class="temperature">14</span>
+                <span class="unit">°C|°F</span></strong>
+
+              </div>
+</div>
+      <div class="row weatherForecast">
+        <div class="col forecastTemperature">
+          <p>Mon</p>
+             <img class= "weatherDay" src="images/clouds.png" alt="clouds" width="100"/>
+
+                        <div class="forecast-temperature">
+                <span class="forecast-temperature-max">15°</span>
+                <span class="forecast-temperature-min">10°</span>
               </div>
 
+        </div>
+        <div class="col forecastTemperature">
+          <p>Tue</p>
+             <img class= "weatherDay" src="images/clouds.png" alt="clouds" width="100"/>
 
-      <div class="weatherForecast row">
-        <div class="col">
-          <div class="weatherForecastPreview">
-            <div class="forecast-time">Fri</div>
-            <canvas width="38" height="38">
               <div class="forecast-temperature">
                 <span class="forecast-temperature-max">15°</span>
                 <span class="forecast-temperature-min">10°</span>
               </div>
-          </div>
-        </div>
-         </div>
-   <div class="weatherForecastPreview">
-            <div class="forecast-time">Sat</div>
-            <canvas width="38" height="38">
-              <div class="forecast-temperature">
-                <span class="forecast-temperature-max">16°</span>
-                <span class="forecast-temperature-min">10°</span>
-                </div>
-        </div>
 
-      <div class="weatherForecastPreview">
-            <div class="forecast-time">Sun</div>
-            <canvas width="38" height="38">
-              <div class="forecast-temperature">
-                <span class="forecast-temperature-max">16°</span>
-                <span class="forecast-temperature-min">12°</span>
-                </div>
         </div>
+        <div class="col forecastTemperature">
+          <p>Wed</p>
+             <img class= "weatherDay" src="images/clouds.png" alt="clouds" width="100"/>
 
-      <div class="weatherForecastPreview">
-            <div class="forecast-time">Mon</div>
-            <canvas width="38" height="38">
               <div class="forecast-temperature">
-                <span class="forecast-temperature-max">1°</span>
+                <span class="forecast-temperature-max">15°</span>
                 <span class="forecast-temperature-min">10°</span>
-                </div>
+              </div>
+
         </div>
+        <div class="col forecastTemperature">
+          <p>Thu</p>
+             <img class= "weatherDay" src="images/clouds.png" alt="clouds" width="100"/>
 
-      <div class="weatherForecastPreview">
-            <div class="forecast-time">Tue</div>
-            <canvas width="38" height="38">
               <div class="forecast-temperature">
-                <span class="forecast-temperature-max">1°</span>
+                <span class="forecast-temperature-max">15°</span>
                 <span class="forecast-temperature-min">10°</span>
-                </div>
+              </div>
+        </div>
+        <div class="col forecastTemperature">
+          <p>Fri</p>
+           <img class= "weatherDay" src="images/clouds.png" alt="clouds" width="100"/>
+
+              <div class="forecast-temperature">
+                <span class="forecast-temperature-max">15°</span>
+                <span class="forecast-temperature-min">10°</span>
+              </div>
+
+        </div>
+      </div>
+
+
         </div>
  </div>
+ <br>
       <footer>
 This project was coded by Kim Hanks, and is
 <a href="https://github.com/KMHKS/vanilla-weather-app" target="_blank" rel="noopener noreferrer">open-sourced on GitHub</a>
       and
       <a href="https://moonlit-nougat-4bddd0.netlify.app/" target="_blank" rel="noopener noreferrer">hosted on Netlify</a>
 </footer>
+<!--
     </div>
-    </div>
+    </div> -->
 
 
     <script src="src/app.js"></script>
