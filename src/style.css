@@ -1,0 +1,43 @@
+body {
+  background: #f9f7fe;
+}
+
+ul{
+  list-style: none;
+}
+
+.Weather form {
+    border-bottom: 1px solid #f9f7fe;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+}
+form {
+    display: block;
+
+}
+
+
+.Weather form {
+    border-bottom: 1px solid #f9f7fe;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+form {
+    display: block;
+    margin-top: 0em;
+}
+.Weather {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+    color: #878787;
+    font-family: Cerebri-Sans,Helvetica,Arial,sans-serif;
+    padding: 40px;
+}
+.WeatherInfo {
+    margin-top: 20px;
+}
