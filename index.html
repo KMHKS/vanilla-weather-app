@@ -14,6 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css"/>
 
   </head>
@@ -61,11 +62,14 @@
 
           <div class="col-6">
             <div class="temperature-container">
-              <img class= "weatherDay" src="images/clouds.png" alt="clouds" width="80"/>
+              <img class= "weatherDay" src="images/clouds.png" alt="clouds" width="150"/>
 
-                <strong><span class="temperature">14</span>
-                <span class="unit">°C|°F</span></strong>
-
+                <strong>
+                  <span class="temperature">14</span>
+                </strong>
+                <small>
+                  <span class="unit">°C|°F</span>
+                </small>
               </div>
 </div>
       <div class="row weatherForecast">
@@ -125,10 +129,12 @@
  </div>
  <br>
       <footer>
-This project was coded by Kim Hanks, and is
+<small>
+This project was coded by Kimberley Hanks, and is
 <a href="https://github.com/KMHKS/vanilla-weather-app" target="_blank" rel="noopener noreferrer">open-sourced on GitHub</a>
       and
       <a href="https://www.netlify.com/?utm_source=google&utm_medium=paid_search&utm_campaign=12755510784&adgroup=118788138897&utm_term=netlify&utm_content=kwd-371509120223&creative=514583565825&device=c&matchtype=e&location=1006524&gclid=Cj0KCQjwhsmaBhCvARIsAIbEbH4A5MTkTz2WT3OJ_1sHanp0sPW88oPKF3QV6TkpaiROTET8zh6V5HYaAo_REALw_wcB" target="_blank" rel="noopener noreferrer">hosted on Netlify</a>
+</small>
 </footer>
 
 
