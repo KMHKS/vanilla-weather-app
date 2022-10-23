@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
-<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css"/>
 
   </head>
@@ -48,14 +48,18 @@
             <br>
             <ul>
               <li>
-                <span> Friday 11 : 53 </span>
-                , broken clouds
+                <span> Friday 11 : 53</span>
+                </li>
+                <li>
+                <span id= "description"></span>
               </li>
               <li>
                 Humidity:
-                <strong> 96 % </strong>
-                , Wind:
-                <strong> 5.66 km/h </strong>
+                <span id="humidity"></span>
+                %</li>
+                <li>
+                Wind:
+                <span id="wind"></span>km/h
               </li>
             </ul>
           </div>
