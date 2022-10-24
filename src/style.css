@@ -18,11 +18,14 @@ ul {
 li {
   list-style: none;
   color: rgb(135, 135, 135);
-  text-transform: capitalize;
   margin: 0px;
   padding: 0px;
   font-size: 15px;
   line-height: 30px;
+}
+
+li:first-letter{
+text-transform: capitalize;
 }
 footer {
   position: relative;
