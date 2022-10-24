@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #962071;
+  color:#6b2594;
   font-size: 50px;
   font-weight: 600;
   line-height: 40px;
@@ -35,7 +35,7 @@ footer {
 }
 
 .btn {
-  background: #962071;
+  background:#260e34;
   border: none;
   color: #cca8e9;
   text-align: center;
@@ -57,24 +57,20 @@ footer {
   padding: 20px;
   border: 1px solid;
   border-radius: 5px;
-  background: radial-gradient(
-    879px at 10.4% 22.3%,
-    rgb(255, 235, 238) 0%,
-    rgb(186, 190, 245) 93.6%
-  );
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 .weatherForecast {
-  color: #962071;
+  color:#6b2594;
   font-size: 15px;
-  font-weight: 350;
+  font-weight: 500;
   line-height: 50px;
   margin: 10px;
   padding: 30px;
 }
 
 .temperature-container {
-  color: #962071;
+  color:#6b2594;
   font-size: 20px;
   font-weight: 400;
   line-height: 50px;
