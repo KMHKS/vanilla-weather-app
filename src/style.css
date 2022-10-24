@@ -77,3 +77,12 @@ footer {
   margin-left: 80px;
   padding: 30px;
 }
+
+.temperature-container .active{
+  color: rgb(33,33,33);
+  cursor:default;
+}
+
+.temperature-container .active:hover {
+  text-decoration: none;
+}
