@@ -78,6 +78,10 @@ footer {
   padding: 30px;
 }
 
+.weather-forecast-temperature-min {
+color: rgb(135, 135, 135);
+}
+
 .temperature-container .active {
   color: rgb(33, 33, 33);
   cursor: default;
@@ -86,3 +90,4 @@ footer {
 .temperature-container .active:hover {
   text-decoration: none;
 }
+
